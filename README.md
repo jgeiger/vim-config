@@ -1,8 +1,21 @@
 # To Install
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
-    git clone https://github.com/pivotalcommon/vim-config.git ~/.vim
+    git clone https://github.com/jgeiger/vim-config.git ~/.vim
     ~/.vim/bin/install
+
+# Custom "command-t" matcher for CtrlP
+
+We use a custom matcher for CtrlP that makes it act similarly to CommandT. Run
+the following to install it.
+
+    cd ~/.vim/bundle/matcher
+    make && make install # or sudo make install if necessary
+
+If you find yourself needing sudo, you might want to change the ownership of
+your /usr/local directory to the current user (for single-user machines only):
+
+    sudo chown -R $USER:admin /usr/local
 
 # Updating
 Fetch the latest version of vim-config and install all the new bundles by running:
