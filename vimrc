@@ -125,6 +125,7 @@ Plugin 'rosstimson/scala-vim-support'
 Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
+Plugin 'uarun/vim-protobuf'
 
 "
 " Development Tool Integration
