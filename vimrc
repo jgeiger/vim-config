@@ -127,6 +127,7 @@ Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
 Plugin 'uarun/vim-protobuf'
+Plugin "ekalinin/Dockerfile.vim"
 
 "
 " Development Tool Integration
