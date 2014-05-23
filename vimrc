@@ -128,6 +128,7 @@ Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
 Plugin 'uarun/vim-protobuf'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'elzr/vim-json'
 
 "
 " Development Tool Integration
