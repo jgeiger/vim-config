@@ -129,6 +129,8 @@ Plugin 'elzr/vim-json'
 Plugin 'uarun/vim-protobuf'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'elzr/vim-json'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'jimenezrick/vimerl'
 
 "
 " Development Tool Integration
