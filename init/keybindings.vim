@@ -189,8 +189,6 @@ nmap <leader>l :TagbarToggle<CR>
 " Cmd-Shift-F searches the whole project (like in TextMate, RubyMine, etc.)
 map <D-F> :Ag<Space>
 
-" YankRing show registers
-:nnoremap <silent> <F6> :YRShow<CR>
-
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
+nmap <F8> :TagbarToggle<CR>
