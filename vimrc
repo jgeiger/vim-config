@@ -136,6 +136,7 @@ Plugin 'jimenezrick/vimerl'
 "
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tjennings/git-grep-vim'
 Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
