@@ -130,6 +130,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'elzr/vim-json'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'jimenezrick/vimerl'
+Plugin 'toml-lang/toml'
 
 "
 " Development Tool Integration
