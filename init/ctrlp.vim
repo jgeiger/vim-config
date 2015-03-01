@@ -4,6 +4,8 @@ let g:ctrlp_map = '<leader>f'
 
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others']
+" https://github.com/kien/ctrlp.vim/issues/174
+" let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " Default to filename searches - so that appctrl will find application
 " controller
@@ -11,12 +13,6 @@ let g:ctrlp_by_filename = 1
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:20,results:20'
 
-" We don't want to use Ctrl-p as the mapping because
-" it interferes with YankRing (paste, then hit ctrl-p)
-let g:ctrlp_map = '<leader>f'
-
-" https://github.com/kien/ctrlp.vim/issues/174
-let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 nnoremap <silent> ,f :CtrlPCurWD<CR>
 nnoremap <silent> ,F :CtrlPClearAllCaches<CR>:CtrlPCurWD<CR>
 

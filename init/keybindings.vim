@@ -103,9 +103,14 @@ map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
 map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%").":".line(".")<CR>
 
 " Run tests
-map <leader>t :wa<CR>:RunTestLine<CR>
-map <leader>T :wa<CR>:RunTest<CR>
-map <leader>tt :wa<CR>:RunTestAgain<CR>
+" map <leader>t :wa<CR>:RunTestLine<CR>
+" map <leader>T :wa<CR>:RunTest<CR>
+" map <leader>tt :wa<CR>:RunTestAgain<CR>
+" vim-rspec mappings
+map <Leader>T :wa<CR>:call RunCurrentSpecFile()<CR>
+map <Leader>t :wa<CR>:call RunNearestSpec()<CR>
+map <Leader>tt :wa<CR>:call RunLastSpec()<CR>
+" map <Leader>a :call RunAllSpecs()<CR>
 
 map <F12> :write<CR>:RunTest<CR>
 imap <F12> <ESC><F12>

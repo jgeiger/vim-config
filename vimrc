@@ -52,7 +52,9 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'camelpunch/test_server'
+Plugin 'Casecommons/tslime.vim'
 Plugin 'jgdavey/vim-blockle'
+Plugin 'thoughtbot/vim-rspec.git'
 
 "
 " General Editing
@@ -96,7 +98,7 @@ Plugin 'ZoomWin'
 " Searching
 "
 Plugin 'mileszs/ack.vim'
-Plugin 'epmatsw/ag.vim'
+Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
 Plugin 'kien/ctrlp.vim'
@@ -124,7 +126,6 @@ Plugin 'fatih/vim-go'
 Plugin 'rosstimson/scala-vim-support'
 Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
-Plugin 'elzr/vim-json'
 Plugin 'uarun/vim-protobuf'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'elzr/vim-json'
