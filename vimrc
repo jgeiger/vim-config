@@ -52,9 +52,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'camelpunch/test_server'
-Plugin 'Casecommons/tslime.vim'
 Plugin 'jgdavey/vim-blockle'
-Plugin 'thoughtbot/vim-rspec.git'
 
 "
 " General Editing
