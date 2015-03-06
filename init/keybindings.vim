@@ -103,18 +103,11 @@ map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
 map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%").":".line(".")<CR>
 
 " Run tests
-map <leader>t :wa<CR>:RunTestLine<CR>
-map <leader>T :wa<CR>:RunTest<CR>
-map <leader>tt :wa<CR>:RunTestAgain<CR>
-
-map <F12> :write<CR>:RunTest<CR>
-imap <F12> <ESC><F12>
-map <F11> :write<CR>:RunTestLine<CR>
-imap <F11> <ESC><F11>
-map <F10> :write<CR>:RunTestAgain<CR>
-imap <F10> <ESC><F10>
-map <F9> :write<CR>:RunTestPrevious<CR>
-imap <F9> <ESC><F9>
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>A :TestSuite<CR>
+nmap <silent> <leader>tt :TestLast<CR>
+nmap <silent> <leader>tv :TestVisit<CR>
 
 " Disable middle mouse button, F1
 map <MiddleMouse>   <Nop>
@@ -126,9 +119,9 @@ imap <F1>           <Nop>
 map <Leader><Leader> :!
 
 " AckGrep current word
-map <leader>a :call AckGrep()<CR>
+map <leader>a :call AgGrep()<CR>
 " AckVisual current selection
-vmap <leader>a :call AckVisual()<CR>
+vmap <leader>a :call AgVisual()<CR>
 
 " Recalculate diff when it gets messed up.
 nmap du :diffupdate<CR>

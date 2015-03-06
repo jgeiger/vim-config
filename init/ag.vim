@@ -1,13 +1,13 @@
 " Find current word in command mode
-function! AckGrep()
-  let command = "ack ".expand("<cword>")
+function! AgGrep()
+  let command = "ag ".expand("<cword>")
   cexpr system(command)
   cw
 endfunction
 
-function! AckVisual()
+function! AgVisual()
   normal gv"xy
-  let command = "ack ".@x
+  let command = "ag ".@x
   cexpr system(command)
   cw
 endfunction

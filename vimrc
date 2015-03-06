@@ -51,7 +51,6 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-endwise'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'nelstrom/vim-textobj-rubyblock'
-Plugin 'camelpunch/test_server'
 Plugin 'jgdavey/vim-blockle'
 
 "
@@ -141,6 +140,8 @@ Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
+Plugin 'janko-m/vim-test'
+Plugin 'cheif/tslime.vim'
 
 call vundle#end()
 filetype plugin indent on

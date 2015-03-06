@@ -1,1 +1,1 @@
-command CC CoffeeCompile vert
+" command CC CoffeeCompile vert
