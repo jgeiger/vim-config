@@ -72,7 +72,6 @@ Plugin 'ervandew/supertab'
 Plugin 'mgamba/j-split'
 Plugin 'matt-royal/diffthese'
 Plugin 'camelcasemotion'
-Plugin 'mgamba/edit-plus'
 Plugin 'brysgo/quickfixfix'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'regreplop.vim'
@@ -87,14 +86,8 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'editorconfig/editorconfig-vim'
 
 "
-" Window Management
-"
-Plugin 'ZoomWin'
-
-"
 " Searching
 "
-Plugin 'mileszs/ack.vim'
 Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'

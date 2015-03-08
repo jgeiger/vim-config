@@ -32,16 +32,6 @@ vmap <leader>s  :s/
 " Split screen
 map <leader>v   :vsp<CR>
 
-" Move between screens
-map <leader>w   ^Ww
-map <leader>=   ^W=
-map <leader>j   ^Wj
-map <leader>k   ^Wk
-nmap <C-j>      <C-w>j
-nmap <C-k>      <C-w>k
-nmap <C-h>      <C-w>h
-nmap <C-l>      <C-w>l
-
 " Open .vimrc file in new tab. Think Command + , [Preferences...] but with Shift.
 map <D-<>       :tabedit ~/.vimrc<CR>
 
@@ -143,23 +133,6 @@ nnoremap <silent> <C-p> :CtrlPMRU<cr>
 " Cmd-Shift-P to clear the cache
 nnoremap <silent> <D-P> :ClearCtrlPCache<cr>
 
-" Idea from : http://www.charlietanksley.net/blog/blog/2011/10/18/vim-navigation-with-lustyexplorer-and-lustyjuggler/
-" Open CtrlP starting from a particular path, making it much
-" more likely to find the correct thing first. mnemonic 'jump to [something]'
-map <leader>jm :CtrlP app/models<CR>
-map <leader>jc :CtrlP app/controllers<CR>
-map <leader>jv :CtrlP app/views<CR>
-map <leader>jh :CtrlP app/helpers<CR>
-map <leader>jl :CtrlP lib<CR>
-map <leader>jp :CtrlP public<CR>
-map <leader>js :CtrlP spec<CR>
-map <leader>jf :CtrlP fast_spec<CR>
-map <leader>jd :CtrlP db<CR>
-map <leader>jC :CtrlP config<CR>
-map <leader>jV :CtrlP vendor<CR>
-map <leader>jF :CtrlP factories<CR>
-map <leader>jT :CtrlP test<CR>
-
 "Cmd-Shift-(M)ethod - jump to a method (tag in current file)
 "Ctrl-m is not good - it overrides behavior of Enter
 nnoremap <silent> <D-M> :CtrlPBufTag<CR>
@@ -178,9 +151,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 
 " Tagbar
 nmap <leader>l :TagbarToggle<CR>
-
-" Cmd-Shift-F searches the whole project (like in TextMate, RubyMine, etc.)
-map <D-F> :Ag<Space>
 
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
