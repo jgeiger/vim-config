@@ -122,7 +122,6 @@ Plugin 'elzr/vim-json'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'jimenezrick/vimerl'
 Plugin 'toml-lang/toml'
-Plugin 'slim-template/vim-slim.git'
 
 "
 " Development Tool Integration
