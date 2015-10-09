@@ -29,6 +29,9 @@ map Y           y$
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
 
+" replace hashrockets
+nmap <leader>rr  :%s/:\([^=,'"]*\) =>/\1:/gc<CR>
+
 " Split screen
 map <leader>v   :vsp<CR>
 
