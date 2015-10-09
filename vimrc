@@ -84,7 +84,6 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'Valloric/YouCompleteMe'
 
 "
 " Searching
