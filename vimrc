@@ -104,6 +104,7 @@ Plugin 'majutsushi/tagbar'
 " Languages
 "
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'markcornick/vim-hashicorp-tools'
 Plugin 'pangloss/vim-javascript'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'slim-template/vim-slim'
