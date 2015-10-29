@@ -17,6 +17,9 @@ autocmd BufWritePre *.rb,*.yml,*.js,*.coffee,*.css,*.less,*.sass,*.scss,*.html,*
 " Java, PHP
 autocmd BufWritePre *.java,*.php call StripTrailingWhitespace()
 
+" Dockerfile
+autocmd BufWritePre Dockerfile call StripTrailingWhitespace()
+
 " Highlight Ruby files
 au BufRead,BufNewFile *.thor set filetype=ruby
 au BufRead,BufNewFile *.god set filetype=ruby
