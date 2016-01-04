@@ -126,6 +126,14 @@ map <leader>u :GundoToggle<CR>
 " <leader>f is the default trigger (set in init/ctrlp.vim)
 nnoremap <silent> <leader>F :CtrlPClearAllCaches<CR>:CtrlPCurWD<CR>
 
+nnoremap <silent> <leader>; :<C-u>Unite grep:. -buffer-name=files<CR>
+if executable('pt')
+  let g:unite_source_grep_command = 'pt'
+  let g:unite_source_grep_default_opts = '--nogroup --nocolor'
+  let g:unite_source_grep_recursive_opt = ''
+  let g:unite_source_grep_encoding = 'utf-8'
+endif
+
 " Additional mapping for buffer search
 nnoremap <silent> <leader>bb :CtrlPBuffer<cr>
 map <D-e> :CtrlPBuffer<CR>

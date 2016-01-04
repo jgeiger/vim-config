@@ -94,6 +94,8 @@ Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'burke/matcher'
+Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/vimproc.vim'
 
 "
 " Navigation
