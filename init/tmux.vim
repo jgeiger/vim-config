@@ -1,5 +1,5 @@
 " Add tmux's higher F-key capabilities
-if &term == "screen-256color"
+if &term == "xterm-256color"
   set t_F3=[25~
   set t_F4=[26~
   set t_F5=[28~

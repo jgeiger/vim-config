@@ -34,15 +34,9 @@ Plugin 'gmarik/vundle'
 "
 " Colorschemes
 "
-Plugin 'tpope/vim-vividchalk'
 Plugin 'chriskempson/base16-vim'
-Plugin 'molokai'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'wgibbs/vim-irblack'
 Plugin 'chriskempson/vim-tomorrow-theme'
-Plugin 'candycode.vim'
-Plugin 'Color-Sampler-Pack'
-Plugin 'flazz/vim-colorschemes'
 
 "
 " Rails
@@ -82,7 +76,6 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
-" Plugin 'terryma/vim-multiple-cursors'
 Plugin 'jszakmeister/vim-togglecursor'
 Plugin 'editorconfig/editorconfig-vim'
 
@@ -133,7 +126,6 @@ Plugin 'toml-lang/toml'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tjennings/git-grep-vim'
-Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
