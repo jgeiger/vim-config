@@ -153,4 +153,3 @@ if filereadable($HOME . "/.vimrc.local")
 endif
 
 au BufRead,BufNewFile *.hamlc set ft=haml
-

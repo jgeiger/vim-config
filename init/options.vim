@@ -63,3 +63,5 @@ let g:sql_type_default="postgresql"
 if has("gui_running")
   set noballooneval
 endif
+
+set foldlevelstart=20
