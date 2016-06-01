@@ -120,6 +120,11 @@ Plugin 'elzr/vim-json'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'jimenezrick/vimerl'
 Plugin 'toml-lang/toml'
+Plugin 'slashmili/alchemist.vim'
+" For doc highlighting in alchemist.vim
+Plugin 'powerman/vim-plugin-AnsiEsc.git'
+Plugin 'lucidstack/hex.vim'
+Plugin 'mattreduce/vim-mix'
 
 "
 " Development Tool Integration
