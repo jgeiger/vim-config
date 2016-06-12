@@ -161,7 +161,7 @@ map <silent> <F19>WriteAll :silent! wall<CR>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 
 " Tagbar
-nmap <leader>l :TagbarToggle<CR>
+nmap <leader>tb :TagbarToggle<CR>
 
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet

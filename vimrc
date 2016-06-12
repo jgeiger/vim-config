@@ -75,10 +75,13 @@ Plugin 'vim-scripts/L9'
 Plugin 'Peeja/vim-cdo'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+" Plugin 'garbas/vim-snipmate'
+" Plugin 'honza/vim-snippets'
 Plugin 'jszakmeister/vim-togglecursor'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'Shougo/neocomplete.vim'
+Plugin 'Shougo/neosnippet.vim'
+Plugin 'Shougo/neosnippet-snippets'
 
 "
 " Searching
@@ -103,6 +106,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'markcornick/vim-hashicorp-tools'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'slim-template/vim-slim'
 Plugin 'nono/vim-handlebars'
@@ -136,7 +140,7 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
 Plugin 'janko-m/vim-test'
-Plugin 'cheif/tslime.vim'
+Plugin 'jgdavey/tslime.vim'
 
 call vundle#end()
 filetype plugin indent on
