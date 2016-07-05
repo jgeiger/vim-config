@@ -82,6 +82,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'Shougo/neosnippet-snippets'
+Plugin 'Valloric/YouCompleteMe'
 
 "
 " Searching
