@@ -87,7 +87,7 @@ Plugin 'Valloric/YouCompleteMe'
 "
 " Searching
 "
-Plugin 'rking/ag.vim'
+Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
 Plugin 'kien/ctrlp.vim'
